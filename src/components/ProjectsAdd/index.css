@@ -1,0 +1,125 @@
+/* Updated index.css */
+
+.projects-section {
+
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.projects-heading {
+
+  font-family: 'outfit';
+  font-size: 70px;
+  text-align: center;
+}
+
+.projects-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.projects-card {
+  background-color: #000000;
+  height: 370px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.projects-card:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  height: 230px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.project-title,
+.project-title1 {
+  color: #ffffff;
+  font-family: 'outfit';
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.github-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.github-link-container a {
+  color: #ffffff;
+  border: solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 6px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.github-link-container a:hover {
+  color: chocolate;
+  border-color: chocolate;
+  transform: scale(1.1);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.add-project-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.add-project-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-project-form label {
+  margin: 10px;
+  text-align: left;
+}
+
+.add-project-form input,
+.add-project-form textarea {
+  width: 300px;
+  padding: 8px;
+  margin: 5px;
+}
+
+.add-project-form button {
+  
+  color: #000000;
+
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-project-form button:hover {
+  background-color: chocolate;
+  
+  color: #ffffff;
+}
+
+.sumbitBtn{
+  background-color: yellow;
+
+  border: 2px solid black;
+}
