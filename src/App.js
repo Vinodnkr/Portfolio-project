@@ -12,12 +12,14 @@ import './App.css'
 // Replace your code here
 const App = () => (
   <Switch>
+ 
     <Route exact path="/" component={Home} />
-    <Route exact path="/" component={AboutMe} />
-    <Route exact path="/" component={Project} />
-<Route exact path="/" component={ContactForm} /> 
+    <Route exact path="/aboutMe" component={AboutMe} />
+    <Route exact path="/project" component={Project} />
+    <Route exact path="/contact" component={ContactForm} /> 
     <Route path="/not-found" component={NotFound} />
     <Redirect to="/not-found" />
+   
   </Switch>
 )
 export default App

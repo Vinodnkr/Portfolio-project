@@ -32,7 +32,7 @@ function Home() {
 
               <div className="home-buttons">
                 <a
-                  href="/projects"
+                  href="/project"
                   className="btn-font"
                 >
                   Projects

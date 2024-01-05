@@ -1,117 +1,87 @@
-Write the objective of the assignment yourself
+# Title
 
-creating a portfolio website to have following
+    Personal portfolio website 
 
-### Refer to the image below:
+## Objective
 
-Add UI reference image yourself
+   -A fully functional personal portfolio website as per the Figma design.
+   -The website should have a responsive design and be optimized for different devices.
 
-<div style="text-align: center;">
-     <!-- <img src="remove this text and add the image URL" alt="ui"> -->
-</div>
-<br/>
 
-### Design Files
+## Tech Stack
 
-<details>
-<summary>Add Route Name</summary>
-<br/>
-Add the design files according to the route (if any) and responsiveness
+    Understanding Design Requirements:
+Access and review the provided Figma design to gain a clear understanding of the project requirements.
 
-<!-- - [Extra Small (Size < 576px) and Small (Size >= 576px)](remove this text and add the image URL here)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](remove this text and add the image URL here) -->
+Navigate to Projects:
+When you click on the "Project" button, the page should navigate to the project's section. 
 
-</details>
+Adding Projects:
+There is a section to fill in project details. After entering the details, clicking the "Add" button should add the project to the "Projects View" section of the webpage.
 
-### Set Up Instructions
+Menu Navigation:
+The webpage has several buttons: About, Projects, and Contact.
+Clicking on the "About" button should take you to the About section of the page.
+Clicking on the "Projects" button should take you to the Projects section.
+Clicking on the "Contact" button should take you to the Contact section.
 
-<details>
-<summary>Click to view</summary>
+LinkedIn Button:
+There is also a LinkedIn button, but for now, it's just for display and doesn't perform any function.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
+Test and refine:
+Conduct thorough testing to ensure that the project-adding functionality works as intended.
 
-</details>
+Finalize and submit:
+Clean up the code, refactor if necessary, and optimize performance.
+Figma:
 
-### Assignment Completion Instructions
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+## Completion Instructions
 
-The app must have the following functionalities:
+### Functionality
 
-- Add all the functionalities to be achieved(according to the route, if any) yourself
+#### Must Have
 
-</details>
+    List the critical features or tasks mentioned in the Assignment
 
-### Assignment Completion Checklist
+#### Nice to Have
 
-<details>
-<summary>Click to view</summary>
+    List the bonus features or tasks mentioned in the Assignment, if any
 
-- **Along with the below points, add your checklist specific to the assignment**
+### Guidelines to develop a project
 
-- Read the instructions given in the assignment carefully and list down the **Assignment Completion Checklist** for the assignment and start working on it
-- The completion Checklist includes the below-mentioned points
-  - I have completed all the functionalities asked in the assignment
-  - I have used only the resources (Frameworks, Design files, APIs, third-party packages) mentioned in the assignment
-  - I have modified the README.md file based on my assignment instructions
-  - I have completed the assignment **ON TIME**
-- **Note:**
-  - Ensure that you have marked all the checklist points in your completion checklist before submitting the assignment
-  </details>
+#### Must Have
 
-### Quick Tips
+    List the necessary guidelines to follow while developing the project, mentioned in the Assignment, if any
 
-<details>
-<summary>Click to view</summary>
-<br>
+#### Nice to Have
 
-- Add third-party packages list yourself
-</details>
+    List the additional/suggested guidelines to follow while developing the project, mentioned in the Assignment, if any
 
-### Important Note
+### Submission Instructions
 
-<details>
-<summary>Click to view</summary>
-<br/>
+#### Must Have
 
-- Add any important note here, like user credentials for authentication.
+    -Use HTML, CSS, JS, and React to complete the assignment.
+    -Publish/Deploy the task and provide us the published URL.
+    -Make a 5-minute video with self introduction and explaining the features you added to the assignment
+    -You can use Loom to record it or record directly -with a phone camera and upload it to Google Drive. Share the video link with public access.
 
-</details>
 
-### Resources
+#### Nice to Have
 
-<details>
-<summary>Data Fetch URLs</summary>
-<br/>
+    List the suggested instructions to follow while submitting the project mentioned in the Assignment, if any
 
-- Add the URLs list to fetch the data yourself
+## Resources
 
-</details>
+### Design files
 
-<details>
-<summary>Image URLs</summary>
-<br/>
+    List the references of design files required for the Assignment
 
-- Add the list of all image URLs needed in the assignment yourself.
+### APIs
 
-</details>
+    List the APIs, providing any relevant endpoints, documentation links, or access keys, required for the Assignment if any
 
-<details>
-<summary>Colors</summary>
-<br/>
+### Third-party packages
 
-Add the text and background colours to be used in the assignment yourself.
-
-<!-- <div style="background-color: #3b82f6; width: 150px; padding: 10px; color: white">Hex: #3b82f6</div> -->
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Add the font-families to be used in the assignment yourself.
-
-</details>
+    List the Third-party packages required for the Assignment, if any
